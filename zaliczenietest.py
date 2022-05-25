@@ -1,5 +1,5 @@
 from selenium import webdriver
-from selenium.webdriver.chrome.webdriver import We
+
 from selenium import regex
 
 driver = webdriver.Chrome(executable_path="D:\chromedriver\chromedriver_win32\chromedriver.exe")
