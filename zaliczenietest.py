@@ -1,7 +1,4 @@
 from selenium import webdriver
-
-from selenium import regex
-
 driver = webdriver.Chrome(executable_path="D:\chromedriver\chromedriver_win32\chromedriver.exe")
 driver.get("https://dlakrolika.pl/client-new.php?register")
 firstname = driver.find_element_by_id("client_firstname")
